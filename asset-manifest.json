@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ProfITAccounting/static/css/main.e6c13ad2.css",
-    "main.js": "/ProfITAccounting/static/js/main.f4b31890.js",
+    "main.js": "/ProfITAccounting/static/js/main.8fa95bbf.js",
     "static/css/960.fc969eaf.chunk.css": "/ProfITAccounting/static/css/960.fc969eaf.chunk.css",
-    "static/js/960.eee001c9.chunk.js": "/ProfITAccounting/static/js/960.eee001c9.chunk.js",
+    "static/js/960.27350a07.chunk.js": "/ProfITAccounting/static/js/960.27350a07.chunk.js",
     "static/css/517.fc969eaf.chunk.css": "/ProfITAccounting/static/css/517.fc969eaf.chunk.css",
-    "static/js/517.024b2c36.chunk.js": "/ProfITAccounting/static/js/517.024b2c36.chunk.js",
+    "static/js/517.abf29164.chunk.js": "/ProfITAccounting/static/js/517.abf29164.chunk.js",
     "static/css/131.fc969eaf.chunk.css": "/ProfITAccounting/static/css/131.fc969eaf.chunk.css",
-    "static/js/131.287fd7f4.chunk.js": "/ProfITAccounting/static/js/131.287fd7f4.chunk.js",
+    "static/js/131.b023cb24.chunk.js": "/ProfITAccounting/static/js/131.b023cb24.chunk.js",
     "static/css/952.fc969eaf.chunk.css": "/ProfITAccounting/static/css/952.fc969eaf.chunk.css",
-    "static/js/952.1db34b1c.chunk.js": "/ProfITAccounting/static/js/952.1db34b1c.chunk.js",
+    "static/js/952.6ea544e8.chunk.js": "/ProfITAccounting/static/js/952.6ea544e8.chunk.js",
     "static/js/659.5ac325cc.chunk.js": "/ProfITAccounting/static/js/659.5ac325cc.chunk.js",
     "static/css/973.a4d823d6.chunk.css": "/ProfITAccounting/static/css/973.a4d823d6.chunk.css",
     "static/js/973.aaa866a8.chunk.js": "/ProfITAccounting/static/js/973.aaa866a8.chunk.js",
@@ -47,15 +47,15 @@
     "static/media/rufina-latin-ext-normal-400.woff2": "/ProfITAccounting/static/media/rufina-latin-ext-normal-400.8d03730df4cb0cd432dc.woff2",
     "static/media/roboto-greek-ext-normal-700.woff2": "/ProfITAccounting/static/media/roboto-greek-ext-normal-700.102fc5035475f737bd4b.woff2",
     "main.e6c13ad2.css.map": "/ProfITAccounting/static/css/main.e6c13ad2.css.map",
-    "main.f4b31890.js.map": "/ProfITAccounting/static/js/main.f4b31890.js.map",
+    "main.8fa95bbf.js.map": "/ProfITAccounting/static/js/main.8fa95bbf.js.map",
     "960.fc969eaf.chunk.css.map": "/ProfITAccounting/static/css/960.fc969eaf.chunk.css.map",
-    "960.eee001c9.chunk.js.map": "/ProfITAccounting/static/js/960.eee001c9.chunk.js.map",
+    "960.27350a07.chunk.js.map": "/ProfITAccounting/static/js/960.27350a07.chunk.js.map",
     "517.fc969eaf.chunk.css.map": "/ProfITAccounting/static/css/517.fc969eaf.chunk.css.map",
-    "517.024b2c36.chunk.js.map": "/ProfITAccounting/static/js/517.024b2c36.chunk.js.map",
+    "517.abf29164.chunk.js.map": "/ProfITAccounting/static/js/517.abf29164.chunk.js.map",
     "131.fc969eaf.chunk.css.map": "/ProfITAccounting/static/css/131.fc969eaf.chunk.css.map",
-    "131.287fd7f4.chunk.js.map": "/ProfITAccounting/static/js/131.287fd7f4.chunk.js.map",
+    "131.b023cb24.chunk.js.map": "/ProfITAccounting/static/js/131.b023cb24.chunk.js.map",
     "952.fc969eaf.chunk.css.map": "/ProfITAccounting/static/css/952.fc969eaf.chunk.css.map",
-    "952.1db34b1c.chunk.js.map": "/ProfITAccounting/static/js/952.1db34b1c.chunk.js.map",
+    "952.6ea544e8.chunk.js.map": "/ProfITAccounting/static/js/952.6ea544e8.chunk.js.map",
     "659.5ac325cc.chunk.js.map": "/ProfITAccounting/static/js/659.5ac325cc.chunk.js.map",
     "973.a4d823d6.chunk.css.map": "/ProfITAccounting/static/css/973.a4d823d6.chunk.css.map",
     "973.aaa866a8.chunk.js.map": "/ProfITAccounting/static/js/973.aaa866a8.chunk.js.map",
@@ -64,6 +64,6 @@
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f4b31890.js"
+    "static/js/main.8fa95bbf.js"
   ]
 }
