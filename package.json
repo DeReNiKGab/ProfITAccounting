@@ -1,7 +1,7 @@
 {
-  "homepage": "https://DeReNiKGab.github.io",
+  "homepage": "https://DeReNiKGab.github.io/ProfITAccounting",
   "name": "landingpage-react-template",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@babel/plugin-transform-object-rest-spread": "^7.24.7",
     "@emailjs/browser": "^4.4.1",
@@ -23,7 +23,6 @@
     "emailjs-com": "^3.2.0",
     "express": "^4.19.2",
     "font-awesome": "^4.7.0",
-    "gh-pages": "^6.1.1",
     "glob": "^11.0.0",
     "lodash": "^4.17.21",
     "lru-cache": "^11.0.0",
@@ -69,6 +68,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "prettier": "3.2.5"
   }
 }
