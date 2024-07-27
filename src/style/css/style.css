@@ -1,0 +1,223 @@
+#service {
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start;
+}
+.introductionImg{
+        background-image: url(../../style/asets/img/hero_image-1.jpeg)
+}
+.aboutUsImg{
+    background-image: url(../../style/asets/img/AboutUs_image.jpeg)
+}
+@media (min-width: 1030px) {
+    .default-nav-class .sb-nav__list .sb-nav__item a ,
+    .default-nav-class .brand__wrapper span{
+        color: #fff!important;
+    }
+    .NavOnAbout .sb-nav__list .sb-nav__item a ,
+    .NavOnAbout .brand__wrapper span{
+        color: #fff!important;
+    }
+}
+
+.NavOnAbout section{
+    background-color: #1c0e05;
+    position: fixed !important;
+}
+
+.aboutUsPadding{
+    padding: 100px 0 100px 0 !important;
+}
+
+.aboutAccounting{
+    width:auto;
+    margin: 0 0 10px;
+    color: inherit;
+    font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    padding: 0;
+    text-align: left;
+    word-wrap: normal;
+    font-size: 22px;
+}
+.topDivide {
+    margin-top: 125px;
+    margin-bottom: 50px;
+}
+.display-xl-font {
+    font-family: "Rufina", serif;font-style:normal;font-weight:700;text-transform:capitalize;font-size:1.125rem;line-height:1.5;letter-spacing:0px; }
+.serv{
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+.baner-down{
+    min-height: auto;
+    padding: 20px;
+}
+.row-my{
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.display-lg-font {font-family: "Rufina", serif;font-style:normal;font-weight:700;text-transform:capitalize;font-size:1.563rem;line-height:1.25;letter-spacing:0px; }
+.display-font {font-family: "Rufina", serif;font-style:normal;font-weight:700;text-transform:capitalize;font-size:1.25rem;line-height:142.86%;letter-spacing:0px; }
+.display-md-font { font-family:"Rufina", serif;font-style:normal;font-weight:600;text-transform:none;font-size:1rem;line-height:1.25;letter-spacing:0px; }
+.display-sm-font { font-family:"Rufina", serif;font-style:normal;font-weight:600;text-transform:none;font-size:1rem;line-height:1.25;letter-spacing:0px; }
+.body-font { font-family:"PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1rem;line-height:1.5;letter-spacing:0px; }
+.body-sm-font { font-family:"PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1rem;line-height:1.5;letter-spacing:0px; }
+
+@media (max-width: 991px) {
+    .display-xl-font {font-family: "Rufina", serif;font-style:normal;font-weight:400;text-transform:none;font-size:2.8125rem;line-height:1;letter-spacing:0px; }
+    .display-lg-font {font-family: "Rufina", serif;font-style:normal;font-weight:300;text-transform:none;font-size:1.4375rem;line-height:1.25;letter-spacing:0px; }
+    .display-font {font-family: "Roboto", serif;font-style:normal;font-weight:700;text-transform:uppercase;font-size:1rem;line-height:1.25;letter-spacing:.3px; }
+    .display-md-font { font-family:"Rufina", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1.1875rem;line-height:1.25;letter-spacing:0px; }
+    .body-sm-font { font-family:"PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:0.9375rem;line-height:1.25;letter-spacing:0px; }
+    .display-sm-font { font-family:"Rufina", serif;font-style:normal;font-weight:600;text-transform:none;font-size:1.125rem;line-height:1;letter-spacing:0px; }
+    .body-font { font-family:"PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1.0625rem;line-height:1.25;letter-spacing:0px; }
+}
+
+@media (max-width: 767px) {
+    .display-xl-font {font-family: "Rufina", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1.625rem;line-height:1;letter-spacing:0px; }
+    .display-lg-font {font-family: "Rufina", serif;font-style:normal;font-weight:300;text-transform:none;font-size:1.375rem;line-height:1.25;letter-spacing:0px; }
+    .display-md-font { font-family:"Rufina", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1.1875rem;line-height:1.25;letter-spacing:0px; }
+    .body-font { font-family:"PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1.0625rem;line-height:1.25;letter-spacing:0px;}
+    .body-sm-font {font-family: "PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:0.9375rem;line-height:1.25;letter-spacing:0px; }
+}
+
+
+
+
+[data-sb-id="70228689-ca31-47df-8c1b-4cfee1389244"],
+[data-custom-media-style="f798f547-7631-40a5-91b5-71ed59b1e010"] {
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+@media (max-width: 1032px) {
+    [data-sb-id="70228689-ca31-47df-8c1b-4cfee1389244"],
+    [data-custom-media-style="f798f547-7631-40a5-91b5-71ed59b1e010"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (max-width: 808px) {
+    [data-sb-id="70228689-ca31-47df-8c1b-4cfee1389244"],
+    [data-custom-media-style="f798f547-7631-40a5-91b5-71ed59b1e010"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (max-width: 667px) {
+    [data-sb-id="70228689-ca31-47df-8c1b-4cfee1389244"],
+    [data-custom-media-style="f798f547-7631-40a5-91b5-71ed59b1e010"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (max-width: 450px) {
+    [data-sb-id="70228689-ca31-47df-8c1b-4cfee1389244"],
+    [data-custom-media-style="f798f547-7631-40a5-91b5-71ed59b1e010"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+[data-sb-id="2e772166-0ab4-42f3-b034-a7854cfc8781"],
+[data-custom-media-style="5b2a1802-b5f4-4a67-81c1-88dc1f468b0e"] {
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+@media (max-width: 1032px) {
+    [data-sb-id="2e772166-0ab4-42f3-b034-a7854cfc8781"],
+    [data-custom-media-style="5b2a1802-b5f4-4a67-81c1-88dc1f468b0e"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (max-width: 808px) {
+    [data-sb-id="2e772166-0ab4-42f3-b034-a7854cfc8781"],
+    [data-custom-media-style="5b2a1802-b5f4-4a67-81c1-88dc1f468b0e"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    .option-media-left .sb-text-image .sb-text-image__image {
+        margin: 0;
+    }
+
+}
+@media (max-width: 770px) {
+    .option-imagecrop-rectangle-portrait.sb-column-content .option-image,
+    .option-imagecrop-rectangle-portrait .option-image {
+        width: 100%;
+    }
+}
+@media (max-width: 667px) {
+    [data-sb-id="2e772166-0ab4-42f3-b034-a7854cfc8781"],
+    [data-custom-media-style="5b2a1802-b5f4-4a67-81c1-88dc1f468b0e"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    .option-media-left .sb-text-image .sb-text-image__content {
+        margin: 0 ;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    [data-sb-id="2e772166-0ab4-42f3-b034-a7854cfc8781"],
+    [data-custom-media-style="5b2a1802-b5f4-4a67-81c1-88dc1f468b0e"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (min-width: 544px) {
+    .sb-section.option-content-width-default .sb-column {
+        flex:0 0 75%;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+.sb-section.option-content-width-default .sb-column .option-width {
+      width: 100%;
+      display: flex;
+  }
+.option-hero-cta-2col .sb-hero .sb-cta-wrapper {
+    margin-top: 0;
+    margin-left: 20px;
+    flex: 1 1 auto;
+    text-align: right;
+    flex-direction: column
+}
+@media (min-width: 768px) {
+    .option-hero-cta-2col .sb-hero .sb-cta-wrapper.sb-section-alignable {
+        margin-left:20px !important;
+        margin-right: 0 !important
+    }
+}
+.option-hero-cta-2col .sb-hero__content-wrapper {
+    margin-right: 20px
+}
+@media (max-width: 740px) {
+    .myFlexA{
+        flex: 0 0 30%;
+    }
+    .myFlexB{
+        width: max-content;
+        flex: 0 0 65%;
+        padding-left: 20px;
+    }
+}

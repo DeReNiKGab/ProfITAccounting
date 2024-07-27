@@ -1,0 +1,35 @@
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border: 0;
+}
+
+.AddrIco{
+    width:45px;
+    height:40px;
+    padding: 0 7px 0 0;
+    margin-top: 10px;
+}
+.PhonIco{
+    width:40px;
+    height:40px;
+    padding-right: 7px;
+}
+.MailIco{
+    width:40px;
+    height:40px;
+    padding-right: 7px;
+}
+.addres,
+.email,
+.tel{
+    display: flex!important;
+}

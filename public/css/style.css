@@ -1,0 +1,191 @@
+
+
+
+.display-xl-font {
+    font-family: "Rufina", serif;font-style:normal;font-weight:700;text-transform:capitalize;font-size:1.125rem;line-height:1.5;letter-spacing:0px; }
+
+@media (max-width: 991px) {
+    .display-xl-font {
+        font-family: "Rufina", serif;font-style:normal;font-weight:400;text-transform:none;font-size:2.8125rem;line-height:1;letter-spacing:0px; }
+}
+
+
+@media (max-width: 767px) {
+    .display-xl-font {
+        font-family: "Rufina", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1.625rem;line-height:1;letter-spacing:0px; }
+}
+
+
+
+.display-lg-font {
+    font-family: "Rufina", serif;font-style:normal;font-weight:700;text-transform:capitalize;font-size:1.563rem;line-height:1.25;letter-spacing:0px; }
+
+@media (max-width: 991px) {
+    .display-lg-font {
+        font-family: "Rufina", serif;font-style:normal;font-weight:300;text-transform:none;font-size:1.4375rem;line-height:1.25;letter-spacing:0px; }
+}
+
+
+@media (max-width: 767px) {
+    .display-lg-font {
+        font-family: "Rufina", serif;font-style:normal;font-weight:300;text-transform:none;font-size:1.375rem;line-height:1.25;letter-spacing:0px; }
+}
+
+
+
+.display-font {
+    font-family: "Rufina", serif;font-style:normal;font-weight:700;text-transform:capitalize;font-size:1.25rem;line-height:142.86%;letter-spacing:0px; }
+
+@media (max-width: 991px) {
+    .display-font {
+        font-family: "Roboto", serif;font-style:normal;font-weight:700;text-transform:uppercase;font-size:1rem;line-height:1.25;letter-spacing:.3px; }
+}
+
+
+@media (max-width: 767px) {
+    .display-font {
+        font-family: "Roboto", serif;font-style:normal;font-weight:700;text-transform:uppercase;font-size:1rem;line-height:1.25;letter-spacing:.3px; }
+}
+
+
+
+.display-md-font { font-family:"Rufina", serif;font-style:normal;font-weight:600;text-transform:none;font-size:1rem;line-height:1.25;letter-spacing:0px; }
+
+@media (max-width: 991px) {
+    .display-md-font { font-family:"Rufina", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1.1875rem;line-height:1.25;letter-spacing:0px; }
+}
+
+
+@media (max-width: 767px) {
+    .display-md-font { font-family:"Rufina", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1.1875rem;line-height:1.25;letter-spacing:0px; }
+}
+
+
+
+.display-sm-font { font-family:"Rufina", serif;font-style:normal;font-weight:600;text-transform:none;font-size:1rem;line-height:1.25;letter-spacing:0px; }
+
+@media (max-width: 991px) {
+    .display-sm-font { font-family:"Rufina", serif;font-style:normal;font-weight:600;text-transform:none;font-size:1.125rem;line-height:1;letter-spacing:0px; }
+}
+
+
+@media (max-width: 767px) {
+    .display-sm-font { font-family:"Rufina", serif;font-style:normal;font-weight:600;text-transform:none;font-size:1.125rem;line-height:1;letter-spacing:0px; }
+}
+
+
+
+.body-font { font-family:"PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1rem;line-height:1.5;letter-spacing:0px; }
+
+@media (max-width: 991px) {
+    .body-font { font-family:"PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1.0625rem;line-height:1.25;letter-spacing:0px; }
+}
+
+
+@media (max-width: 767px) {
+    .body-font { font-family:"PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1.0625rem;line-height:1.25;letter-spacing:0px; }
+}
+
+
+
+.body-sm-font { font-family:"PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:1rem;line-height:1.5;letter-spacing:0px; }
+
+@media (max-width: 991px) {
+    .body-sm-font { font-family:"PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:0.9375rem;line-height:1.25;letter-spacing:0px; }
+}
+
+
+@media (max-width: 767px) {
+    .body-sm-font {
+        font-family: "PT Serif", serif;font-style:normal;font-weight:400;text-transform:none;font-size:0.9375rem;line-height:1.25;letter-spacing:0px; }
+}
+
+
+
+
+[data-sb-id="70228689-ca31-47df-8c1b-4cfee1389244"],
+[data-custom-media-style="f798f547-7631-40a5-91b5-71ed59b1e010"] {
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+@media (max-width: 1032px) {
+    [data-sb-id="70228689-ca31-47df-8c1b-4cfee1389244"],
+    [data-custom-media-style="f798f547-7631-40a5-91b5-71ed59b1e010"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (max-width: 808px) {
+    [data-sb-id="70228689-ca31-47df-8c1b-4cfee1389244"],
+    [data-custom-media-style="f798f547-7631-40a5-91b5-71ed59b1e010"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (max-width: 667px) {
+    [data-sb-id="70228689-ca31-47df-8c1b-4cfee1389244"],
+    [data-custom-media-style="f798f547-7631-40a5-91b5-71ed59b1e010"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (max-width: 450px) {
+    [data-sb-id="70228689-ca31-47df-8c1b-4cfee1389244"],
+    [data-custom-media-style="f798f547-7631-40a5-91b5-71ed59b1e010"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+[data-sb-id="2e772166-0ab4-42f3-b034-a7854cfc8781"],
+[data-custom-media-style="5b2a1802-b5f4-4a67-81c1-88dc1f468b0e"] {
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+@media (max-width: 1032px) {
+    [data-sb-id="2e772166-0ab4-42f3-b034-a7854cfc8781"],
+    [data-custom-media-style="5b2a1802-b5f4-4a67-81c1-88dc1f468b0e"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (max-width: 808px) {
+    [data-sb-id="2e772166-0ab4-42f3-b034-a7854cfc8781"],
+    [data-custom-media-style="5b2a1802-b5f4-4a67-81c1-88dc1f468b0e"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (max-width: 667px) {
+    [data-sb-id="2e772166-0ab4-42f3-b034-a7854cfc8781"],
+    [data-custom-media-style="5b2a1802-b5f4-4a67-81c1-88dc1f468b0e"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
+@media (max-width: 450px) {
+    [data-sb-id="2e772166-0ab4-42f3-b034-a7854cfc8781"],
+    [data-custom-media-style="5b2a1802-b5f4-4a67-81c1-88dc1f468b0e"] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
