@@ -23,7 +23,7 @@ export const App = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<React.Suspense><HomePage/></React.Suspense>}/>
+                <Route path="/ProfITAccounting" element={<React.Suspense><HomePage/></React.Suspense>}/>
                 <Route path="/AboutUs" element={<React.Suspense><AboutUsPage/></React.Suspense>}/>
                 <Route path="/Contacts" element={<React.Suspense><ContactPage/></React.Suspense>}/>
                 <Route path="/Accounting-History" element={<React.Suspense><AccountingHistoryPage/></React.Suspense>}/>
