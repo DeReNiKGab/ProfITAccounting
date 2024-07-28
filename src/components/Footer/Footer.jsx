@@ -60,28 +60,28 @@ const Footer = () => {
                     </div>
                     <div className="myFlexA col-lg-3 col-md-3 col-sm-6 col-xs-6 sb-footer__menu">
                       <div className="h3 sb-footer-nav-with-map__title">
-                        Menu
+                        Հղումներ
                       </div>
                       <nav aria-label="Secondary" className="sb-footer__nav">
                         <ul className="sb-footer__nav-list">
                           <li>
                             <a className="sb-link" href="home">
-                              Home
+                              Գլխավոր էջ
                             </a>
                           </li>
                           <li>
                             <a className="sb-link" href="index.html#services">
-                              Services
+                              Ծառայություններ
                             </a>
                           </li>
                           <li>
                             <a className="sb-link" href="index.html#about-us">
-                              About Us
+                              Մեր մասին
                             </a>
                           </li>
                           <li>
                             <a className="sb-link" href="contact.html">
-                              Contact
+                              Կոնտակտ
                             </a>
                           </li>
                         </ul>
@@ -89,7 +89,7 @@ const Footer = () => {
                     </div>
                     <div className="myFlexB col-lg-3 col-md-3 col-sm-6 col-xs-6 sb-footer__location">
                       <div className="h3 sb-footer-nav-with-map__title">
-                        Contact
+                        Կոնտակտներ
                       </div>
                       <ul className="sb-footer__nav-list">
                         <li>
@@ -107,7 +107,7 @@ const Footer = () => {
                             >
                               <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
                             </svg>
-                            <p>Metsamor, Armavir 0910 AM</p>
+                            <p>Մեծամոր, Արմավիր, 0910 </p>
                           </a>
                         </li>
                         <li>
@@ -136,14 +136,14 @@ const Footer = () => {
                             >
                               <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
                             </svg>
-                            <p>+37493666889</p>
+                            <p>(+37493) 66 68 89</p>
                           </a>
                         </li>
                       </ul>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 sb-footer__map">
                       <div className="h3 sb-footer-nav-with-map__title">
-                        Directions
+                        Հասցե
                       </div>
                       <div className="google-map">
                         <iframe

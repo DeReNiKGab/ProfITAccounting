@@ -3,13 +3,13 @@ import { useLocation, Link, useNavigate } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import classNames from 'classnames';
 import { debounce } from 'lodash';
-
+import logo from "../../style/asets/img/logo.png";
 const navItems = [
-    { name: 'Home', path: '/' },
-    { name: 'Services', path: '/#service', isHashLink: true },
-    { name: 'About Us', path: '/AboutUs' },
-    { name: 'Contact', path: '/Contacts' },
-    { name: 'History of Accounting', path: '/Accounting-History' }
+    { name: 'Գլխավոր էջ', path: '/' },
+    { name: 'Ծառայություններ', path: '/#service', isHashLink: true },
+    { name: 'Մեր մասին', path: '/AboutUs' },
+    { name: 'կոնտակտ', path: '/Contacts' },
+    { name: 'Հաշվապահության պատմություն ', path: '/Accounting-History' }
 ];
 
 const Navigation = () => {
@@ -78,7 +78,7 @@ const Navigation = () => {
                                             <img
                                                 alt="Prof IT Accounting Logo"
                                                 className="logo"
-                                                src="https://cdn.b12.io/client_media/RXJufhPa/07c3d432-fc1e-11ee-a52f-0242ac110002-png-regular_image.png"
+                                                src={logo}
                                             />
                                             <span className="brand__text">Prof IT Accounting</span>
                                         </div>

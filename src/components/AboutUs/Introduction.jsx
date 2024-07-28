@@ -54,7 +54,7 @@ const AboutUsSection = () => {
                         data-sb-type="text"
                         data-sb-uuid="7c9d9839-e67f-45cb-9250-63c1cd6acd74"
                       >
-                        Tired of crunching numbers?
+                          Հոգնե՞լ եք ձեր սեփական հաշվապահություն անելուց?
                       </h2>
                       <p
                         className="sb-subtitle sb-text-image__content-subtitle"
@@ -70,8 +70,7 @@ const AboutUsSection = () => {
                         data-sb-type="text"
                         data-sb-uuid="d8a8d1be-99c3-4294-825f-d05313052515"
                       >
-                        Let Prof IT Accounting handle all of your accounting
-                        needs.
+                          Թող Prof IT Accounting-ը կարգավորի ձեր բոլոր հաշվապահական կարիքները:
                       </p>
                     </div>
                     <div className="sb-text-image__image">

@@ -2698,7 +2698,7 @@ select {
 
 .form {
   margin: 0;
-  padding: 0;
+  padding-top: 10px;
 }
 
 .form__wrapper {
@@ -4319,9 +4319,6 @@ select {
   color: #fff;
 }
 
-.items-grid__link {
-  margin-top: 10px;
-}
 
 .items-grid__link,
 .items-grid__link a:not(.sb-button) {
@@ -4414,7 +4411,7 @@ select {
   left: 0;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px 5px 10px 5px;
   justify-content: flex-end;
   align-items: flex-start;
   background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.6));
@@ -12673,11 +12670,6 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-}
-
-.form {
-  margin: 0;
-  padding: 0;
 }
 
 .form__wrapper {

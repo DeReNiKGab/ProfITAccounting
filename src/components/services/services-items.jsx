@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import {Link, useNavigate, useSearchParams} from 'react-router-dom';
+import React  from 'react';
+import {Link, useSearchParams} from 'react-router-dom';
 import '../../style/css/Bootstrap/bootstrap.min.css';
 import '../../style/css/font-awesome/css/font-awesome.min.css';
 import '../../style/css/style.css';
@@ -7,62 +7,11 @@ import 'aos/dist/aos.css';
 import Header from "../header/header";
 import Footer from "../Footer/Footer";
 
-const ServicesSectionItems = (props) => {
-  const navigate = useNavigate();
+export const ServicesSectionItems = (props) => {
   const [searchParams] = useSearchParams();
   const imageUrl = searchParams.get('imageUrl');
   const title = searchParams.get('title');
   const description = searchParams.get('description');
-
-console.log(title )
-  useEffect(() => {
-    const targetToScrollTo = null;
-    let textToScrollTo = null;
-    const hasTextToSelectInUrl = window.performance.getEntriesByType("navigation")[0].name.includes('#:~:');
-
-    if (hasTextToSelectInUrl) {
-      textToScrollTo = decodeURIComponent(window.performance.getEntriesByType("navigation")[0].name.split('#:~:text=')[1]);
-    } else {
-      if (!window.location.hash.includes('UL_FORM') && !window.location.hash.includes('#!')) {
-        let target = window.location.hash.replace('#', '');
-
-        const isIE = /(MSIE|Trident\/|Edge\/)/i.test(navigator.userAgent);
-        if (isIE) {
-          window.location.hash = '';
-          window.history.replaceState(null, null, window.location.href.split('#')[0]);
-        } else {
-          navigate(window.location.pathname + window.location.search, { replace: true });
-        }
-      }
-    }
-  }, [navigate]);
-
-  useEffect(() => {
-    const mq = (query, callback, usePolyfill) => {
-      const isMatchMediaSupported = !!(window && window.matchMedia) && !usePolyfill;
-      const host = {};
-
-      if (isMatchMediaSupported) {
-        const res = window.matchMedia(query);
-        callback.apply(host, [res.matches, res.media]);
-        res.addListener((changed) => {
-          callback.apply(host, [changed.matches, changed.media]);
-        });
-      }
-    };
-
-    const $elem = document.querySelector('[data-sb-uuid="d1818313-9088-4c1c-9cb6-f2ff0d9e9073"]');
-    const $section = $elem.closest('.sb-section');
-    const hasProperClass = !!($section.classList.contains('option-text-image-float-left') || $section.classList.contains('option-text-image-float-right'));
-
-    mq('(min-width: 767px)', (match) => {
-      if (match && hasProperClass) {
-        $section.prepend($elem.querySelector('.option-image'));
-      } else {
-        $elem.querySelector('.sb-text-image__image').prepend($section.querySelector('.option-image'));
-      }
-    });
-  }, []);
 
 
   return (
@@ -139,7 +88,7 @@ console.log(title )
                             rel=" "
                             target=""
                           >
-                            Schedule appointment
+                            Նշանակել հանդիպում
                           </Link>
                         </span>
                       </div>
@@ -191,13 +140,13 @@ console.log(title )
                     <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="0" data-aos-duration="400"
                          data-aos-easing="ease-in-out" data-aos-once="true" className="sb-title sb-hero__title aos-init aos-animate"
                          data-component-field="title" data-sb-field="text" data-sb-is-link="" data-sb-type="text"
-                         data-sb-uuid="10f4eb92-a787-4027-83c5-5c868b761b3e">Get in touch with Prof IT Accounting
+                         data-sb-uuid="10f4eb92-a787-4027-83c5-5c868b761b3e">Կապվեք Prof IT Accounting-ի հետ
                     </div>
                     <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="50" data-aos-duration="400"
                          data-aos-easing="ease-in-out" data-aos-once="true" className="sb-subtitle sb-hero__subtitle aos-init aos-animate"
                          data-component-field="subtitle" data-sb-field="text" data-sb-is-link="" data-sb-type="text"
                          data-sb-uuid="c30f2ee1-2a7c-438d-b36f-4c1f91b547f5">
-                      We want to hear from you!
+                      Մենք ուզում ենք լսել ձեզնից!
                     </div>
                   </div>
                   <div className="sb-cta-wrapper sb-section-alignable "></div>

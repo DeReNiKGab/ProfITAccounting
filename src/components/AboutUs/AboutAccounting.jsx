@@ -46,7 +46,7 @@ function AboutAccounting() {
                         data-sb-type="text"
                         data-sb-uuid="60ebb242-c67f-4831-b0c3-74c3de12b3ad"
                       >
-                        <strong>A Brief History of Accounting</strong>
+                        <strong>Հաշվապահական հաշվառման համառոտ պատմություն</strong>
                       </h3>
                       <h2
                         data-aos="slide-up"
@@ -62,7 +62,7 @@ function AboutAccounting() {
                         data-sb-type="text"
                         data-sb-uuid="fb38dfe1-d4b3-4583-8368-376d038ccdb9"
                       >
-                        From Ancient Records to Modern Finance
+                        Հնագույն գրառումներից մինչև ժամանակակից ֆինանսներ
                       </h2>
                       <div
                         data-aos="slide-up"
@@ -80,81 +80,63 @@ function AboutAccounting() {
                       >
                         <p>
                           <strong>
-                            <em>Ancient Beginnings</em>
+                            <em>Հաշվապահության ծագումը</em>
                           </strong>
                         </p>
                         <p>
-                          The history of accounting dates back to ancient
-                          civilizations, including Mesopotamia, Egypt, and Rome,
-                          where basic bookkeeping was practiced as a way to keep
-                          records of trade and property. These early accounting
-                          records were kept on clay tablets and papyrus,
-                          detailing transactions and inventories that were
-                          crucial for managing estates and governmental
-                          planning.
+                          Հաշվապահական հաշվառման պատմությունը սկսվում է հին ժամանակներից
+                          քաղաքակրթություններ, ներառյալ Միջագետքը, Եգիպտոսը և Հռոմը,
+                          որտեղ տարրական հաշվապահությունը կիրառվում էր որպես պահելու միջոց
+                          առևտրի և գույքի վերաբերյալ գրառումներ. Սրանք վաղ հաշվապահություն
+                          գրառումները պահվում էին կավե տախտակների և պապիրուսների վրա,
+                          մանրամասնելով գործարքները և գույքագրումները, որոնք եղել են
+                          վճռորոշ է գույքի և պետական կառավարման համար
+                          պլանավորում։
                         </p>
                         <p>
                           <strong>
-                            <em>The Middle Ages</em>
+                            <em>Միջնադար</em>
                           </strong>
                         </p>
                         <p>
-                          The development of double-entry bookkeeping is one of
-                          the most significant milestones in the history of
-                          accounting. This system, which involves recording each
-                          transaction in two accounts (debit and credit), was
-                          first documented in 1494 by Luca Pacioli, an Italian
-                          mathematician and Franciscan friar. His work, "Summa
-                          de Arithmetica, Geometria, Proportioni et
-                          Proportionalita," laid the foundation for modern
-                          accounting practices and earned him the title "The
-                          Father of Accounting."
+                          Կրկնակի հաշվապահական հաշվառման զարգացումը հաշվապահական հաշվառման պատմության ամենակարևոր իրադարձություններից մեկն է:
+                          Այս համակարգը, որը ներառում է յուրաքանչյուր գործարքի գրանցում երկու հաշիվներով (դեբետային և վարկային), առաջին անգամ փաստաթղթավորվել է 1494 թվականին իտալացի մաթեմատիկոս և ֆրանցիսկյան վանական Լուկա Պաչիոլիի կողմից: Նրա աշխատությունը՝ «Summa de Arithmetica, Geometria, Proportioni et
+                          Proportionalita», հիմք դրեց ժամանակակից հաշվապահական պրակտիկայի և նրան շնորհեց «Հաշվապահության հայր» կոչումը:
                         </p>
                         <p>
                           <strong>
-                            <em>The Industrial Revolution</em>
+                            <em>Արդյունաբերական հեղափոխություն</em>
                           </strong>
                         </p>
                         <p>
-                          The Industrial Revolution brought significant changes
-                          to the business world, and with it, the need for more
-                          sophisticated accounting systems. As businesses grew
-                          and financial operations became more complex, the role
-                          of accountants became more prominent. During this
-                          period, the profession began to formalize; accounting
-                          firms were established, and standardized methods were
-                          developed.
+                          Արդյունաբերական հեղափոխությունը զգալի փոփոխություններ բերեց
+                          բիզնես աշխարհին, և դրա հետ մեկտեղ՝ ավելիի անհրաժեշտությունը
+                          բարդ հաշվապահական համակարգեր: Քանի որ բիզնեսներն աճեցին
+                          և ֆինանսական գործառնությունները բարդացան, հաշվապահների դերը դարձավ ավելի ընդգծված: Այս ժամանակահատվածում մասնագիտությունը սկսեց պաշտոնականանալ; ստեղծվեցին հաշվապահական ընկերություններ, և ստեղծվեցին ստանդարտացված մեթոդներ
+                          զարգացած.
                         </p>
                         <p>
                           <strong>
-                            <em>20th Century Advancements</em>
+                            <em>20-րդ դարի առաջխաղացումները</em>
                           </strong>
                         </p>
                         <p>
-                          The 20th century saw major advancements in accounting
-                          due to the introduction of technology and the
-                          globalization of business. The creation of accounting
-                          software in the latter half of the century transformed
-                          the field, automating many processes and increasing
-                          the accuracy and efficiency of accounting practices.
-                          Additionally, international accounting standards began
-                          to emerge, facilitating the global comparison and
-                          consistency of financial reporting.
+                          20-րդ դարը հաշվապահության մեջ մեծ առաջընթաց է գրանցել՝ շնորհիվ տեխնոլոգիայի ներդրման և
+                          բիզնեսի գլոբալացում:Դարի երկրորդ կեսում հաշվապահական ծրագրաշարի ստեղծումը փոխեց ոլորտը՝ ավտոմատացնելով
+                          բազմաթիվ գործընթացներ և բարձրացնելով հաշվապահական գործելակերպերի ճշգրտությունն ու արդյունավետությունը:
+                          Բացի այդ, սկսեցին ի հայտ գալ միջազգային հաշվապահական ստանդարտներ, որոնք նպաստեցին ֆինանսական հաշվետվությունների
+                          համաշխարհային համեմատության և հետևողականության ապահովմանը:
                         </p>
                         <p>
                           <strong>
-                            <em>Contemporary Accounting</em>
+                            <em>Ժամանակակից հաշվապահություն</em>
                           </strong>
                         </p>
                         <p>
-                          Today, accounting is a highly regulated profession
-                          critical to the functioning of financial markets and
-                          management within companies. It encompasses various
-                          fields, including financial accounting, management
-                          accounting, auditing, and tax accounting. The
-                          introduction of advanced technologies like AI and
-                          blockchain presents new opportunities and challenges,
-                          shaping the future of accounting in the digital age.
+                          Այսօր հաշվապահությունը խիստ կարգավորվող մասնագիտություն է, որը կարևոր է ֆինանսական շուկաների և ընկերությունների
+                          կառավարման գործունեության համար: Այն ներառում է տարբեր ոլորտներ, ներառյալ ֆինանսական հաշվապահություն, կառավարչական
+                          հաշվապահություն, աուդիտ և հարկային հաշվապահություն: Արդիական տեխնոլոգիաների, ինչպիսիք են արհեստական բանականությունն ու բլոկչեյնը,
+                          ներմուծումը նոր հնարավորություններ և մարտահրավերներ է ստեղծում՝ ձևավորելով հաշվապահության ապագան թվային դարում:
                         </p>
                       </div>
                       <div className="sb-text-image-vertical__content-cta">

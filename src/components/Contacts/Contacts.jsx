@@ -46,38 +46,35 @@ function Contacts() {
                                     <div className="row">
                                         <div className="col-xs-12 col-sm-12 col-md-5">
                                             <div className="contact-full__form" id="contact-form-b80c641b-1ded-48d5-9eb3-659851d402d6">
-                                                <div className="sb-section-title sb-section-alignable" data-component-field="title" data-sb-field="text">Contact us</div>
-                                                <div className="sb-section-subtitle sb-section-alignable" data-component-field="subtitle" data-sb-field="text">If you have any questions or want to learn more, please send us an email.</div>
-                                                <p>We want to hear from you! Whether you want to hire us to handle all of your accounting needs or have questions, please get in touch with us!</p>
+                                                <div className="sb-section-title sb-section-alignable" data-component-field="title" data-sb-field="text">Կապնվեք մեզ հետ</div>
+                                                <div className="sb-section-subtitle sb-section-alignable" data-component-field="subtitle" data-sb-field="text">Եթե ունեք հարցեր կամ ցանկանում եք ավելին իմանալ, խնդրում ենք ուղարկել մեզ էլ-նամակ:</div>
+                                                <p>Մենք ուզում ենք լսել ձեզնից: Անկախ նրանից, թե ցանկանում եք մեզ վարձել՝ ձեր բոլոր հաշվապահական կարիքները հոգալու համար, թե հարցեր ունեք, խնդրում ենք կապ հաստատել մեզ հետ:</p>
                                                 <form className="form js-form" data-recaptcha-version="1" id="UL_FORM_c37bbeab-1829-44ea-b174-a147d8cc6095" onSubmit={handleSubmit}>
                                                     <div className="form__group  form__group--required ">
-                                                        <label htmlFor="unique_id_2-b80c641b-1ded-48d5-9eb3-659851d402d6" className="form__label contact-form__label">Name <span className="form__label-required">*</span></label>
-                                                        <input required type="text" className="form__input contact-form__input" id="unique_id_2-b80c641b-1ded-48d5-9eb3-659851d402d6" name="name" placeholder="Jane Smith" value={formData.name} onChange={handleChange} />
+                                                        <label htmlFor="unique_id_2-b80c641b-1ded-48d5-9eb3-659851d402d6" className="form__label contact-form__label">Անուն <span className="form__label-required">*</span></label>
+                                                        <input required type="text" className="form__input contact-form__input" id="unique_id_2-b80c641b-1ded-48d5-9eb3-659851d402d6" name="name" placeholder="Արեն" value={formData.name} onChange={handleChange} />
                                                     </div>
                                                     <div className="form__group  form__group--required ">
-                                                        <label htmlFor="unique_id_1-b80c641b-1ded-48d5-9eb3-659851d402d6" className="form__label contact-form__label">Email address <span className="form__label-required">*</span></label>
+                                                        <label htmlFor="unique_id_1-b80c641b-1ded-48d5-9eb3-659851d402d6" className="form__label contact-form__label">Էլեկտրոնային հասցե<span className="form__label-required">*</span></label>
                                                         <input required type="email" className="form__input contact-form__input" id="unique_id_1-b80c641b-1ded-48d5-9eb3-659851d402d6" name="from_email" placeholder="email@website.com" value={formData.from_email} onChange={handleChange} />
                                                     </div>
                                                     <div className="form__group  form__group--required ">
-                                                        <label htmlFor="unique_id_3-b80c641b-1ded-48d5-9eb3-659851d402d6" className="form__label contact-form__label">Phone number <span className="form__label-required">*</span></label>
-                                                        <input required type="tel" className="form__input contact-form__input" id="unique_id_3-b80c641b-1ded-48d5-9eb3-659851d402d6" name="from_phone" placeholder="555-555-5555" value={formData.from_phone} onChange={handleChange} />
+                                                        <label htmlFor="unique_id_3-b80c641b-1ded-48d5-9eb3-659851d402d6" className="form__label contact-form__label">Հեռ․ <span className="form__label-required">*</span></label>
+                                                        <input required type="tel" className="form__input contact-form__input" id="unique_id_3-b80c641b-1ded-48d5-9eb3-659851d402d6" name="from_phone" placeholder="077-77-77-77" value={formData.from_phone} onChange={handleChange} />
                                                     </div>
                                                     <div className="form__group">
-                                                        <label htmlFor="unique_id_4-b80c641b-1ded-48d5-9eb3-659851d402d6" className="form__label contact-form__label">Message</label>
+                                                        <label htmlFor="unique_id_4-b80c641b-1ded-48d5-9eb3-659851d402d6" className="form__label contact-form__label">Հաղորթագրություն</label>
                                                         <textarea className="form__input form__input--textarea contact-form__textarea" id="unique_id_4-b80c641b-1ded-48d5-9eb3-659851d402d6" name="message" rows="4" value={formData.message} onChange={handleChange}></textarea>
                                                     </div>
                                                     <div className="form__group form__group--checkbox form__group--required">
-                                                        <div className="form__checkbox-error" id="checkbox-error-message-gdpr_consent-b80c641b-1ded-48d5-9eb3-659851d402d6">
-                                                            Please select at least one option.
-                                                        </div>
                                                         <div className="form__input-checkbox-wrapper">
                                                             <input required type="checkbox" className="form__input form__input--checkbox" id="3e040677-855d-47d0-a6c5-972b2d518a3d-b80c641b-1ded-48d5-9eb3-659851d402d6" name="gdpr_consent" value="Checked" />
                                                             <label htmlFor="3e040677-855d-47d0-a6c5-972b2d518a3d-b80c641b-1ded-48d5-9eb3-659851d402d6" className="form__label contact-form__label">
-                                                                I allow this website to store my submission so they can respond to my inquiry. <span className="form__label-required">*</span>
+                                                                Ես թույլ եմ տալիս այս կայքին պահել իմ տվյալները, որպեսզի նրանք կարողանան պատասխանել իմ հարցմանը:<span className="form__label-required">*</span>
                                                             </label>
                                                         </div>
                                                     </div>
-                                                    <button type="submit" className="sb-button sb-button--form contact-form__btn">Submit</button>
+                                                    <button type="submit" className="sb-button sb-button--form contact-form__btn">Ներկայացնել</button>
                                                 </form>
                                             </div>
                                         </div>
@@ -85,10 +82,10 @@ function Contacts() {
                                             <div className="contact-full__location">
                                                 <div className="contact-details vcard sb-section-alignable">
                                                     <div className="contact-details__row contact-details__contact">
-                                                        <div className="h3 contact-details__title">Contact us</div>
+                                                        <div className="h3 contact-details__title">Կապվեք մեր հետ</div>
                                                         <div className="contact-details__phone">
                                                             <a aria-label="Call us at +37493666889" className="tel"
-                                                               href="tel:+37493666889">+37493666889</a>
+                                                               href="tel:+37493666889">(+374)93 66 68 89</a>
                                                         </div>
                                                         <div className="contact-details__email">
                                                             <a aria-label="Email us at aprofit020@gmail.com"
@@ -109,12 +106,12 @@ function Contacts() {
                                                         </ul>
                                                     </div>
                                                     <div className="contact-details__row contact-details__location">
-                                                        <div className="h3 contact-details__title">Location</div>
+                                                        <div className="h3 contact-details__title">Հասցե</div>
                                                         <p className="adr contact-details__address">
                                                             <a aria-label="Our location at Metsamor, Armavir 0910 AM"
                                                                href="https://www.google.com/maps/place/+Metsamor+Armavir+0910+AM"
                                                                rel="noreferrer" target="_blank">
-                                                                Metsamor, Armavir 0910 AM
+                                                                Մեծամոր, Արմավիր, 0910
                                                             </a>
                                                         </p>
                                                     </div>

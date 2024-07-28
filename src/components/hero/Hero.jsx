@@ -43,7 +43,7 @@ const HeroSection = () => {
                               data-sb-type="text"
                               data-sb-uuid="6c40aafe-4e9e-450c-95c3-13e238709fe7"
                           >
-                              Expert accounting
+                              Փորձագիտական Հաշվառում
                           </h1>
                           <div
                               className="sb-subtitle sb-hero__subtitle"
@@ -59,14 +59,8 @@ const HeroSection = () => {
                               data-sb-type="text"
                               data-sb-uuid="5aa34942-86a1-4848-9ffb-c0d5791637b2"
                           >
-                              Professional accounting services for businesses
-                          </div>
+                              Մասնագիտական հաշվապահական ծառայություններ բիզնեսի համար                          </div>
                       </div>
-                     {/* <div className="sb-cta-wrapper sb-section-alignable">
-                          <a className="sb-cta-wrapper__btn sb-button sb-button--primary" href="index.html#services">
-                              View services
-                          </a>
-                      </div>*/}
                   </div>
                 </div>
               </div>
